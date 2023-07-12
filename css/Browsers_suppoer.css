@@ -1,0 +1,56 @@
+
+/* Mozila */
+
+:-moz-focusring {
+  outline: 0px solid transparent;
+}
+
+.btn-all:-moz-focusring{
+  background-color: var(--orange-light);
+  border: 0;
+}
+
+.check-box-dis:-moz-focusring + .check-box-style{
+  box-shadow: 0 0 0 2px var(--orange);
+}
+
+.header-container__logo:-moz-focusring {
+  outline: 1px solid var(--orange);
+  outline-offset: 5px;
+}
+
+.header-nav__link:-moz-focusring{
+  outline-offset: 3px;
+  outline: 2px solid var(--orange);
+}
+
+.header-container__search:-moz-focusring{
+  outline: 2px solid var(--orange);
+  outline-offset: 3px;
+}
+
+.about-us__block__btn:-moz-focusring{
+  background-color: var(--orange);
+  border-color: transparent;
+}
+
+.how-work__btn-contract:-moz-focusring{
+  background-color: var(--gray-midl-dark);
+  color: var(--white);
+  border: 1px solid transparent;
+}
+
+.footer__logo:-moz-focusring{
+  outline: 1px solid var(--orange);
+  outline-offset: 5px;
+}
+
+.footer__link:-moz-focusring{
+  outline: 2px solid var(--orange);
+  outline-offset: 3px;
+}
+
+.footer-form:-moz-focusring{
+  background-color: var(--gray-midl-dark);
+  outline: 0;
+}
